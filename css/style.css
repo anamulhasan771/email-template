@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+}
+table{
+    border-spacing: 0;
+}
+td {
+    padding: 0;
+}
+img {
+    border: 0;
+}
+
+.wrapper {
+    width: 100%;
+    table-layout: fixed;  
+    background-color: #cccccc;
+    padding-bottom: 40px;  
+}
+.main {
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 600px;
+    border-spacing: 0;
+    font-family: sans-serif;
+}
+td a img {
+    padding: 1px 5px;
+}
+td.one {
+    text-align: center;
+    padding: 8px 0 5px;
+}
+a.b-image img {
+    padding: 0;
+}
+a.button {
+    background-color: #4980d2;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+td.two-columns {
+    text-align: center;
+    font-size: 0;
+    padding: 40px 0;
+}
+td.two-columns .column {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+td.two-columns .padding {
+    padding: 20px;
+}
+td.two-columns .content {
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+}
+a {
+    text-decoration: none;
+    color: #4980d2;
+}
+@media screen and (max-width: 600px;) {
+    td.two-columns .content img {
+        width: 300px!important;
+        max-width: 300px!important;
+    }
+    td.two-columns .padding {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+    p{
+        font-size: 13px;
+    }
+}
